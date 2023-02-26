@@ -15,7 +15,7 @@ import bpy
 
 class ActionToSceneRange(bpy.types.Operator):
     """Set Playback range to current action Start/End"""
-    bl_idname = "object.action_to_range"
+    bl_idname = "anim.action_to_range"
     bl_label = "Action to Scene Range"
     bl_description = "Transfer action range to scene range"
     bl_options = {'REGISTER', 'UNDO'}
