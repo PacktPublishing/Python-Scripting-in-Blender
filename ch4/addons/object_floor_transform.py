@@ -93,4 +93,4 @@ def register():
 
 def unregister():
     bpy.utils.unregister_class(OBJECT_OT_elevator)
-    bpy.types.VIEW3D_MT_pose_context_menu.remove(draw_elevator_item)
+    bpy.types.VIEW3D_MT_object_context_menu.remove(draw_elevator_item)
