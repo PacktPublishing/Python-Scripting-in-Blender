@@ -1,6 +1,6 @@
 # Python-Scripting-in-Blender
 
-<a href="https://www.packtpub.com/product/python-scripting-in-blender-3x/9781803234229?utm_source=github&utm_medium=repository&utm_campaign=9781803235851"><img src="https://content.packt.com/B18375/cover_image_small.jpg" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/python-scripting-in-blender-3x/9781803234229?utm_source=github&utm_medium=repository&utm_campaign=9781803235851"><img src="https://content.packt.com/B18375/cover_image_small.png" alt="" height="256px" align="right"></a>
 
 This is the code repository for [Python Scripting in Blender](https://www.packtpub.com/product/python-scripting-in-blender-3x/9781803234229?utm_source=github&utm_medium=repository&utm_campaign=9781803235851), published by Packt.
 
