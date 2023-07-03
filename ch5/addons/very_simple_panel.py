@@ -52,6 +52,7 @@ class TRANSFORM_OT_random_location(bpy.types.Operator):
     bl_label = "Add random Location"
 
     amount: bpy.props.IntProperty(name="Amount",
+                                  min=0,  # prevent negative values to avoid errors in add_random_location()
                                   default=1)
     axis: bpy.props.BoolVectorProperty(
                                name="Displace Axis",
@@ -90,6 +91,7 @@ class OBJECT_PT_very_simple(bpy.types.Panel):
         layout.label(text="Isn't it great?", icon='QUESTION')
         layout.label(text="Smile", icon_value=custom_icons["smile_face"].icon_id)
 
+        col = layout.column()
         box = col.box()
         split = box.split(factor=0.33)
         left_col = split.column()
