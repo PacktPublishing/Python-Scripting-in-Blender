@@ -55,6 +55,19 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Squeaky Clean Topology in Blender [[Packt]](https://www.packtpub.com/product/squeaky-clean-topology-in-blender/9781803244082?utm_source=github&utm_medium=repository&utm_campaign=9781803244082) [[Amazon]](https://www.amazon.com/dp/1803244089)
 
+## Errata 
+ * Page 45 (second last code clock):
+``` 
+import bpy
+for ob in bpy.context.selected_objects:
+ob.select_set(False)
+```
+**_should be_**
+``` 
+ import bpy
+ for ob in bpy.context.selected_objects:
+     ob.select_set(False)
+ ```
 
 ## Get to Know the Author
 **Paolo Acampora** is a software developer at Binary Alchemy and a veteran technical director for animation, visual effects, and prototyping. He is a long-time Blender user and advocates for the widespread adoption of open source software and code literacy.
