@@ -56,7 +56,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Squeaky Clean Topology in Blender [[Packt]](https://www.packtpub.com/product/squeaky-clean-topology-in-blender/9781803244082?utm_source=github&utm_medium=repository&utm_campaign=9781803244082) [[Amazon]](https://www.amazon.com/dp/1803244089)
 
 ## Errata 
- * Page 45 (second last code clock):
+ * Page 45 (second last code block):
 ``` 
 import bpy
 for ob in bpy.context.selected_objects:
