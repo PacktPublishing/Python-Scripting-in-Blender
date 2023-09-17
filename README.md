@@ -69,6 +69,21 @@ ob.select_set(False)
      ob.select_set(False)
  ```
 
+ * Page 62 (second last code block):
+``` 
+try:
+    mesh_cl = bpy.data.collections.new['Mesh']
+except KeyError:
+    mesh_cl = bpy.data.collections.new("Mesh")
+```
+**_should be_**
+``` 
+try:
+    mesh_cl = bpy.data.collections['Mesh']
+except KeyError:
+    mesh_cl = bpy.data.collections.new("Mesh")
+ ```
+
 ## Get to Know the Author
 **Paolo Acampora** is a software developer at Binary Alchemy and a veteran technical director for animation, visual effects, and prototyping. He is a long-time Blender user and advocates for the widespread adoption of open source software and code literacy.
 He works with studios to kickstart their computer graphics pipelines and shares his tools with the Blender community.
