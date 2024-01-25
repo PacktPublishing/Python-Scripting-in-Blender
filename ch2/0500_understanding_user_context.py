@@ -31,7 +31,7 @@ view_layer.objects.active = bpy.data.objects['Camera']
 # The following snippet prints the names of selected objects and
 #  wether they are the active object or not"""
 
-# The expected result with blender's default scene is:
+# The expected result after pressing A in blender's default scene is:
 
 """
 Cube is active, skipping
